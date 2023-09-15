@@ -27,7 +27,10 @@ restaurant wrt cost & meal
 http://localhost:4030/filter/1?lcost=800&hcost=1000
 
 sort on the basis of cost
+http://localhost:4030/filter/1?lcost=300&hcost=800&sort=-1
 
+pagination
+http://localhost:4030/pagination?page=5
 ## Page 3
 
 Details of a restaurant
